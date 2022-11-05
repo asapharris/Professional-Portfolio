@@ -1,0 +1,46 @@
+/* Universal Selector */
+* {
+    margin:0;
+    padding:0;  
+  }
+
+/*Whole Header Display*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #120c80;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 32px;
+    border: 20px, rgb(0, 0, 0);
+    border-style: double;
+    padding: 12px;
+}
+
+/*Header Navigation Bar*/
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header ul {
+    list-style-type: none;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
