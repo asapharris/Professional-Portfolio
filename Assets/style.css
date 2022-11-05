@@ -36,7 +36,6 @@
     font-size: 25px;
 }
 
-
 .header ul li {
     display: inline-block;
     color: #ffffff;
@@ -51,16 +50,12 @@
     border-radius: 15px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
 /*Header Img*/
 .header-img img {
     width: 100%;
     margin-bottom: 25px;
     border-bottom: #000000 solid 5px;
+    
 }
 
 /*About Me Section*/
@@ -81,20 +76,26 @@ a {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #000000;
     border-radius: 10px;
+    margin-right: 250px;
 }
 
 .About-Me p {
-    display: inline;
-    text-align: right;
-
+    align-items: flex-end;
+    position: relative;
+    line-height: 35px;
+    text-align: end;
 }
 
 /*Main Content*/
-.content {
-    display: flexbox;
+.Content {
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 0;
 }
 
-.content h1 {
+.Content h1 {
     display: inline-block;
     font-size: 40px;
     color: #b9ac15;
@@ -105,6 +106,25 @@ a {
     border-radius: 10px;
 }
 
+.Content ul {
+    align-items: flex-end;
+    position: relative;
+}
+
+.Content ul li {
+    display: inline-block;
+    color: #ffffff;
+    margin-left: 40px;
+    padding-bottom: 5px;
+    text-decoration: underline #b9ac15;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: #ffffff solid 3px;
+    background-color: #000000;
+    padding: 8px;
+    border-radius: 15px;
+}
+
 /*Footer Display*/
 .footer {
     position: fixed 0;
@@ -112,8 +132,8 @@ a {
     bottom: 0;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #120c80;
-    color: #589ff6;
+    background-color: #2f2f30fd;
+    color: #ffffff;
     border: 10px #b9ac15;
     width: 100%;
 }
@@ -134,13 +154,19 @@ a {
     font-size: 25px;
 }
 
-.footer ul {
-    list-style-type: none;
-}
-
 .footer ul li {
     display: inline-block;
-    margin-left: 30px;
+    color: #ffffff;
+    margin-left: 40px;
     padding-bottom: 5px;
-    text-decoration: underline;
+    text-decoration: underline #b9ac15;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: #ffffff solid 3px;
+    background-color: #000000;
+    padding: 8px;
+    border-radius: 15px;
 }
+
+
+
