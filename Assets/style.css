@@ -18,11 +18,11 @@
 
 .header h1 {
     display: inline-block;
-    font-size: 40px;
+    font-size: 42px;
     color: #b9ac15;
     border: 4px solid rgb(255, 255, 255);
     padding: 18px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
     background-color: #000000;
     border-radius: 10px;
 }
@@ -32,16 +32,94 @@
     padding-top: 15px;
     margin-right: 30px;
     float: right;
-    font-family: 'Times New Roman', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-family: 'Times New Roman', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
     font-size: 25px;
 }
-
 
 .header ul li {
     display: inline-block;
     color: #ffffff;
     margin-left: 40px;
     padding-bottom: 5px;
+    text-decoration: underline #b9ac15;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: #ffffff solid 2px;
+    background-color: #000000;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+/*Header Img*/
+.header-img img {
+    width: 100%;
+    margin-bottom: 25px;
+    border-bottom: #000000 solid 5px;
+
+}
+
+/*About Me Section*/
+.About-Me {
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.About-Me h1 {
+    font-size: 40px;
+    color: #b9ac15;
+    padding: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    margin-right: 20px;
+    margin-left: 47px;
+    position: relative;
+    text-align: right;
+}
+
+.About-Me p {
+    align-items: flex-end;
+    position: relative;
+    line-height: 35px;
+    text-align: start;
+    padding-left: 30px;
+    border-left: #000000 solid 1px;
+    margin-left: 60px;
+    margin-right: 25px;
+}
+
+/*Main Content*/
+.Content {
+    display: inline-flex;
+    align-items: flex-end;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 0;
+}
+
+.Content h1 {
+    font-size: 40px;
+    color: #b9ac15;
+    padding: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    margin-right: 20px;
+    margin-left: 47px;
+    position: relative;
+    text-align: right;
+}
+
+.Content ul {
+    align-items: flex-end;
+    position: relative;
+}
+
+.Content ul li {
+    display: inline-block;
+    color: #ffffff;
+    margin-left: 40px;
+
     text-decoration: underline #b9ac15;
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
@@ -51,96 +129,45 @@
     border-radius: 15px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-/*Header Img*/
-.header-img img {
-    width: 100%;
-    margin-bottom: 25px;
-    border-bottom: #000000 solid 5px;
-}
-
-/*About Me Section*/
-.About-Me {
-    display: flex;
-    align-items: flex-end;
-    padding: 10px;
-    margin: 10px;
-    margin-top: 0;
-}
-
-.About-Me h1 {
-    display: inline-block;
-    font-size: 40px;
-    color: #b9ac15;
-    border: 4px solid rgb(255, 255, 255);
-    padding: 18px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #000000;
-    border-radius: 10px;
-}
-
-.About-Me p {
-    display: inline;
-    text-align: right;
-
-}
-
-/*Main Content*/
-.content {
-    display: flexbox;
-}
-
-.content h1 {
-    display: inline-block;
-    font-size: 40px;
-    color: #b9ac15;
-    border: 4px solid rgb(255, 255, 255);
-    padding: 18px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #000000;
-    border-radius: 10px;
-}
-
 /*Footer Display*/
 .footer {
     position: fixed 0;
-    margin-top: 0;
+    margin-top: 20px;
     bottom: 0;
     padding: 20px;
+    padding-bottom: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #120c80;
-    color: #589ff6;
-    border: 10px #b9ac15;
+    background-color: #2f2f30fd;
+    border-top: solid 20px #b9ac15;
     width: 100%;
+    display: inline-block;
 }
 
 .footer h1 {
-    display: inline-block;
-    font-size: 30px;
-    color: #120c80 padding: 12px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 26px;
+    padding-bottom: 15px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    text-align: center;
 }
 
 .footer nav {
-    padding-top: 15px;
-    margin-left: 100px;
-    width: 100%;
-    float: right;
+    padding-top: 3px;
     font-family: 'Times New Roman', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 25px;
+    border-top: #ffffff solid 1px;
 }
 
 .footer ul {
-    list-style-type: none;
+    text-align: center;
+    padding: 10px;
 }
 
 .footer ul li {
-    display: inline-block;
-    margin-left: 30px;
-    padding-bottom: 5px;
-    text-decoration: underline;
+    display: inline;
+    color: #ffffff;
+    margin-left: 5px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
 }
